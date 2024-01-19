@@ -1,3 +1,4 @@
+// 카펫
 function solution(brown, yellow) {
   for (let i = 1; i <= Math.sqrt(yellow); i++) {
     if (yellow % i === 0 && (i + 2) * (yellow / i + 2) === brown + yellow) {
